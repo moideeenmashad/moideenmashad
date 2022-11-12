@@ -79,16 +79,16 @@
                     class="img-fluid" alt="Phone image">
                 </div>
                 <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-                  <form>
+                  <form action="/index.html" onsubmit="return passvalidate() && emailvalidate();">
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                      <input type="email" id="form1Example13" class="form-control form-control-lg" />
+                      <input type="email" id="email" class="form-control form-control-lg" />
                       <label class="form-label" for="Email" aria-placeholder="Enter your email">Email address</label>
                     </div>
           
                     <!-- Password input -->
                     <div class="form-outline mb-4">
-                      <input type="password" id="form1Example23" class="form-control form-control-lg" />
+                      <input type="password" id="pwd" class="form-control form-control-lg" />
                       <label class="form-label" for="password" aria-placeholder="password">Password</label>
                     </div>
           
@@ -142,7 +142,7 @@
                 <small>Copyright &copy; Moideen Mashad</small>
               </div>
             </footer>
-          </body>
-  
+          
+  <script src="index.js"></script>
     </body>
   </html>
